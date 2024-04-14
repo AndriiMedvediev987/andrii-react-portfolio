@@ -1,13 +1,15 @@
 import { Outlet } from 'react-router-dom';
-import Nav from './components/NavTabs';
+import Navigator from './components/Navigator';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <>
-      <Nav />
-      <main className="mx-3">
+      <Navigator />
+      <main className=" flexbox-container main">
         <Outlet />
       </main>
+      <Footer/>
     </>
   );
 }
