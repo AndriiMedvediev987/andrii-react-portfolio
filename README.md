@@ -11,7 +11,7 @@ My first application also contains clickable link.
 
 ## Screenshot
 
-![sshot-portfolio]()
+![sshot-portfolio](https://github.com/AndriiMedvediev987/andrii-react-portfolio/assets/144401796/2944abd7-b9b9-4ca9-98dd-f0115d282414)
 
 ## Usage
 
