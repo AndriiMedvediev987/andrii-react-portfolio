@@ -9,6 +9,7 @@
 }
 
 .navigator {
+  background-size: cover;
   background-image: url('assets/images/nav_background017.png');
   background-repeat: no-repeat;
 }
@@ -147,14 +148,16 @@ header,
   width: 70%;
 }
 
-.form input, textarea {
+.form input,
+textarea {
   display: block;
   margin-top: 5px;
   margin-bottom: 5px;
   width: 100%;
 }
 
-.form p, label {
+.form p,
+label {
   text-align: left;
 }
 
@@ -221,4 +224,31 @@ header,
 
 .read-the-docs {
   color: #888;
+}
+
+@media only screen and (max-width: 600px) {
+  .work {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin: 1%;
+  }
+
+  .nav-tabs {
+    flex-direction: column;
+  }
+
+  /* .nav-item {
+    display: inline-block !important;
+    float: left !important;
+     width: 120px; 
+     height:150px; adjust 
+    padding: 5px; 
+    } */
+
+  /* .flexbox-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  } */
 }
