@@ -235,20 +235,6 @@ label {
   }
 
   .nav-tabs {
-    flex-direction: column;
+    flex-direction: column !important;
   }
-
-  /* .nav-item {
-    display: inline-block !important;
-    float: left !important;
-     width: 120px; 
-     height:150px; adjust 
-    padding: 5px; 
-    } */
-
-  /* .flexbox-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  } */
 }
