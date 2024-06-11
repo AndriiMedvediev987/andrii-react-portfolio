@@ -10,7 +10,7 @@ import Contact from './Pages/Contact';
 import Resume from './Pages/Resume';
 import Error from './Pages/Error';
 
-// 4 pages, About - same as root page
+// 4 pages
 const router = createBrowserRouter([
   {
     path: '/',
@@ -21,10 +21,6 @@ const router = createBrowserRouter([
         index: true,
         element: <About />,
       },
-      // {
-      //   path: '/About',
-      //   element: <About />,
-      // },
       {
         path: '/Portfolio',
         element: <Portfolio />,
